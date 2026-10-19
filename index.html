@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Zukhruf Khattak — Agentic AI Engineer</title>
+<meta name="description" content="Portfolio of Zukhruf Khattak — Agentic AI Engineer building multi-agent systems, RAG pipelines and voice agents.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23E8542F'/%3E%3Ctext x='32' y='45' font-family='Georgia,serif' font-weight='bold' font-size='36' fill='%23F4EEE1' text-anchor='middle'%3EZ%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+
+<!-- PRELOADER -->
+<div class="loader" id="loader" aria-hidden="true">
+  <div class="l-num"><span id="loadNum">0</span><i>%</i></div>
+  <div class="l-bar"><i id="loadBar"></i></div>
+  <div class="l-tag">Zukhruf Khattak — Portfolio 2026</div>
+</div>
+
+<!-- CURSOR -->
+<div class="cursor-dot" id="cDot"></div>
+<div class="cursor-ring" id="cRing"></div>
+
+<!-- SCROLL PROGRESS -->
+<div class="progress" id="progress"></div>
+
+<!-- PAGE WIPE -->
+<div class="wipe" id="wipe" aria-hidden="true">
+  <div class="w-col c1"></div>
+  <div class="w-col c2"></div>
+  <div class="w-col c3"><span class="w-word" id="wipeWord">Work</span></div>
+</div>
+
+<!-- NAV -->
+<header class="nav" id="nav">
+  <a href="#top" class="logo" data-wipe-link data-word="Home">ZK<b>.</b></a>
+  <nav>
+    <ul class="nav-links">
+      <li><a href="#about" data-wipe-link data-word="About">About</a></li>
+      <li><a href="#capabilities" data-wipe-link data-word="Skills">Capabilities</a></li>
+      <li><a href="#work" data-wipe-link data-word="Work">Work</a></li>
+      <li><a href="#journey" data-wipe-link data-word="Path">Journey</a></li>
+      <li><a href="#contact" data-wipe-link data-word="Hello">Contact</a></li>
+    </ul>
+  </nav>
+  <div class="nav-cta">
+    <button class="theme-btn" id="themeBtn" data-mag aria-label="Toggle day / dusk theme">
+      <svg class="sun" viewBox="0 0 24 24"><circle cx="12" cy="12" r="4.2"/><path d="M12 2.5v2.4M12 19.1v2.4M4.3 4.3l1.7 1.7M18 18l1.7 1.7M2.5 12h2.4M19.1 12h2.4M4.3 19.7L6 18M18 6l1.7-1.7"/></svg>
+      <svg class="moon" viewBox="0 0 24 24"><path d="M20.4 14.2A8.4 8.4 0 1 1 9.8 3.6a6.8 6.8 0 0 0 10.6 10.6Z"/></svg>
+    </button>
+    <a class="hire" href="#contact" data-wipe-link data-word="Hello" data-mag>Hire me</a>
+    <button class="burger" id="burger" aria-label="Open menu"><span></span><span></span><span></span></button>
+  </div>
+</header>
+
+<!-- MOBILE MENU -->
+<nav class="menu" id="menu" aria-hidden="true">
+  <a href="#about" data-wipe-link data-word="About"><i>01</i>Ab<em>out</em></a>
+  <a href="#capabilities" data-wipe-link data-word="Skills"><i>02</i>Capab<em>ilities</em></a>
+  <a href="#work" data-wipe-link data-word="Work"><i>03</i>W<em>ork</em></a>
+  <a href="#journey" data-wipe-link data-word="Path"><i>04</i>Jour<em>ney</em></a>
+  <a href="#contact" data-wipe-link data-word="Hello"><i>05</i>Cont<em>act</em></a>
+  <div class="menu-foot"><span>Peshawar, PK</span><span>itszohroufkhattak@gmail.com</span></div>
+</nav>
+
+<main id="top">
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="net-wrap">
+      <canvas id="net" aria-hidden="true"></canvas>
+      <div class="net-tip" id="netTip"><b></b><span></span></div>
+    </div>
+    <div class="hero-hint">the network is alive — hover it</div>
+    <div class="wrap hero-inner">
+      <div class="hero-eyebrow">
+        <span class="dot-live"><i></i>Open to AI Engineering roles · 2026</span>
+      </div>
+      <h1 id="heroName">
+        <span class="ln">Zukhruf</span><br>
+        <span class="ln outline">Khattak</span><span class="t-dot">.</span>
+      </h1>
+      <div class="hero-role">
+        <span class="role rv" style="--d:.55s">Agentic AI Engineer</span>
+        <p class="blurb rv" style="--d:.7s">I turn language models into working systems — agents that plan, retrieve, call tools, and ship real outcomes end to end.</p>
+      </div>
+      <div class="hero-btns">
+        <a class="btn solid rv" style="--d:.85s" href="#work" data-wipe-link data-word="Work" data-mag>Explore my work <span class="arr">↓</span></a>
+        <a class="btn ghost rv" style="--d:1s" href="#contact" data-wipe-link data-word="Hello" data-mag>Say hello</a>
+      </div>
+    </div>
+    <div class="marquee" aria-hidden="true">
+      <div class="mq-track" id="mq1"></div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="about" id="about">
+    <div class="wrap">
+      <div class="about-top rv">
+        <p class="eyebrow">About — 01</p>
+        <div class="status-strip">
+          <span class="status-pill"><i>✳</i> Final-year B.S. CS · Class of 2026</span>
+          <span class="status-pill"><i>⚒</i> Building agentic side-projects</span>
+          <span class="status-pill"><i>◉</i> Open to AI engineering roles</span>
+        </div>
+      </div>
+      <div class="about-grid" style="margin-top:2.2rem">
+        <div>
+          <p class="about-lede rv rv-clip">
+            I'm Zukhruf — an AI engineer from <mark>Peshawar</mark> who builds <em>agentic systems</em> that don't just chat:
+            they <mark>reason over tools</mark>, ground themselves in <em>retrieval</em>, speak two languages,
+            and run in <em>Docker</em> by the time you're done reading this.
+          </p>
+          <div class="stats">
+            <div class="stat rv" style="--d:.1s"><b><span data-count="9">0</span><i>+</i></b><span>Projects shipped</span></div>
+            <div class="stat rv" style="--d:.2s"><b><span data-count="3.72" data-dec="2">0</span></b><span>CGPA / 4.00 — B.S. CS</span></div>
+            <div class="stat rv" style="--d:.3s"><b><span data-count="9">0</span></b><span>Certifications</span></div>
+            <div class="stat rv" style="--d:.4s"><b><span data-count="2">0</span></b><span>Languages my agents speak — EN & AR</span></div>
+          </div>
+          <div class="pr-grid">
+            <div class="pr-card rv" style="--d:.15s">
+              <span class="pr-num">01</span>
+              <h3 class="pr-title">Grounded, not guessy</h3>
+              <p class="pr-desc">RAG-first thinking: every answer backed by retrieved evidence, never vibes.</p>
+            </div>
+            <div class="pr-card rv" style="--d:.25s">
+              <span class="pr-num">02</span>
+              <h3 class="pr-title">Agents that act</h3>
+              <p class="pr-desc">Models wired to tools, APIs and databases, so real work actually gets done.</p>
+            </div>
+            <div class="pr-card rv" style="--d:.35s">
+              <span class="pr-num">03</span>
+              <h3 class="pr-title">Demo or it didn't happen</h3>
+              <p class="pr-desc">Every build ships with an interface and a Dockerfile, ready to run anywhere.</p>
+            </div>
+          </div>
+        </div>
+        <aside class="about-side">
+          <div class="fact-card rv" style="--d:.2s">
+            <div class="id-badge-row">
+              <div class="id-badge">ZK</div>
+              <div class="id-meta">
+                <span class="id-name">Zukhruf Khattak</span>
+                <span class="id-role">Agentic AI Engineer</span>
+              </div>
+            </div>
+            <div class="fact"><b>Base</b><span>Peshawar, KPK · Pakistan</span></div>
+            <div class="fact"><b>Degree</b><span>B.S. Computer Science, 2026</span></div>
+            <div class="fact"><b>Focus</b><span>Agentic AI · RAG · Voice</span></div>
+            <div class="fact"><b>Loves</b><span>LangGraph, FastAPI, Docker</span></div>
+            <div class="fact"><b>Thesis</b><span>Deep-learning skin cancer detection</span></div>
+          </div>
+          <div class="stamp rv" style="--d:.35s" aria-hidden="true">
+            <svg viewBox="0 0 150 150">
+              <defs><path id="circ" d="M75,75 m-58,0 a58,58 0 1,1 116,0 a58,58 0 1,1 -116,0"/></defs>
+              <text><textPath href="#circ">AGENTIC SYSTEMS ✳ RETRIEVAL ✳ VOICE AI ✳ SHIPPING ✳</textPath></text>
+            </svg>
+            <span class="core">✳</span>
+          </div>
+        </aside>
+      </div>
+    </div>
+  </section>
+
+  <!-- CAPABILITIES -->
+  <section class="caps" id="capabilities">
+    <div class="wrap">
+      <div class="sec-head">
+        <div>
+          <p class="eyebrow rv">Capabilities — 02</p>
+          <h2 class="sec-title rv" style="--d:.1s">What I <em>build</em> with</h2>
+        </div>
+        <p class="rv" style="--d:.2s;max-width:340px;color:var(--mut)">A toolkit shaped by shipping full agentic products — from prompt to Postgres to production container.</p>
+      </div>
+      <div class="caps-grid" id="capsGrid"></div>
+    </div>
+  </section>
+
+  <!-- WORK -->
+  <section class="work" id="work">
+    <div class="wrap">
+      <div class="sec-head">
+        <div>
+          <p class="eyebrow rv">Selected works — 03</p>
+          <h2 class="sec-title rv" style="--d:.1s">Systems that <em>think</em></h2>
+        </div>
+        <p class="rv" style="--d:.2s;max-width:340px;color:var(--mut)">Nine shipped builds. Click any card for the full case — or filter by flavour.</p>
+      </div>
+      <div class="filters rv" id="filters"></div>
+      <div class="work-grid" id="workGrid"></div>
+      <div class="work-more rv">
+        <a class="btn ghost" data-mag href="https://github.com/Zukhruf-khattak" target="_blank" rel="noopener">More on GitHub <span class="arr">↗</span></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- JOURNEY -->
+  <section class="journey" id="journey">
+    <div class="wrap">
+      <p class="eyebrow rv">Journey — 04</p>
+      <h2 class="sec-title rv" style="--d:.1s;margin:1rem 0 3.5rem">The path so <em>far</em></h2>
+      <div class="j-grid">
+        <div class="spine-wrap" aria-hidden="true">
+          <svg class="spine" viewBox="0 0 220 560" fill="none">
+            <path class="base" d="M60 0 C 160 90, -20 180, 90 270 C 180 350, 10 440, 110 560" />
+            <path class="draw" id="spinePath" d="M60 0 C 160 90, -20 180, 90 270 C 180 350, 10 440, 110 560" pathLength="100" stroke-dasharray="100" stroke-dashoffset="100"/>
+            <text x="78" y="40" font-size="48">2026</text>
+          </svg>
+        </div>
+        <div>
+          <div class="milestone rv">
+            <span class="mile-dot">✳</span>
+            <div>
+              <div class="m-year">2022 — 2026</div>
+              <h3>B.S. Computer Science — University of Peshawar</h3>
+              <p>Shaikh Zayed Islamic Centre · <b>CGPA 3.72/4.00</b>. Thesis: <b>“Automated Skin Cancer Detection and Classification Using Deep Learning”</b>, supervised by Dr. Muhammad Ayaz — a dual-stage ensemble pipeline with Grad-CAM explainability on ISIC 2019.</p>
+            </div>
+          </div>
+          <div class="milestone rv">
+            <span class="mile-dot grn">✦</span>
+            <div>
+              <div class="m-year">Always learning</div>
+              <h3>Certifications & Training</h3>
+              <p>Nine programs across generative AI, deep learning, LLM engineering and cloud — because agents are only as good as their maker.</p>
+              <div class="certs" id="certs"></div>
+            </div>
+          </div>
+          <div class="milestone rv" style="border-bottom:none">
+            <span class="mile-dot">↗</span>
+            <div>
+              <div class="m-year">Next stop</div>
+              <h3>Your team, shipping agentic products</h3>
+              <p>Looking for AI engineering roles where multi-agent systems, RAG and voice interfaces solve real problems — on-site in Pakistan or remote worldwide.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="marquee mq-tang" aria-hidden="true">
+    <div class="mq-track" id="mq2"></div>
+  </div>
+
+  <!-- CONTACT -->
+  <section class="contact" id="contact">
+    <div class="glow"></div>
+    <div class="wrap">
+      <p class="eyebrow rv" style="color:rgba(244,238,225,.6)">Contact — 05</p>
+      <h2 class="rv" style="--d:.1s">
+        <span class="ln">Let's build</span><br>
+        <span class="ln outline">something</span><br>
+        <span class="ln">that <em>thinks.</em></span>
+      </h2>
+      <p class="c-lede rv" style="--d:.2s">Have an agentic idea, a RAG pipeline to rescue, or a voice agent to bring to life? My inbox is one click away.</p>
+      <button class="mail-link rv" style="--d:.3s" id="copyMail" data-mag>itszohroufkhattak@gmail.com <span style="font-style:normal">⧉</span></button>
+      <div class="c-links">
+        <a class="c-pill rv" style="--d:.35s" data-mag href="mailto:itszohroufkhattak@gmail.com">Email me</a>
+        <a class="c-pill rv" style="--d:.4s" data-mag href="https://github.com/Zukhruf-khattak" target="_blank" rel="noopener">GitHub ↗</a>
+        <a class="c-pill rv" style="--d:.45s" data-mag href="https://linkedin.com/in/zukhruf-khattak-789608243" target="_blank" rel="noopener">LinkedIn ↗</a>
+        <a class="c-pill rv" style="--d:.5s" data-mag href="tel:+923705573715">+92 370 5573715</a>
+      </div>
+      <div class="footer-bar">
+        <span>© <span id="year">2026</span> Zukhruf Khattak — Peshawar → the world</span>
+        <span>Built vanilla · no frameworks harmed</span>
+        <a href="#top" class="to-top" data-wipe-link data-word="Top">Back to top ↑</a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- PROJECT MODAL -->
+<div class="modal" id="modal" aria-hidden="true" role="dialog" aria-modal="true">
+  <div class="modal-bg" id="modalBg"></div>
+  <div class="modal-card">
+    <button class="m-close" id="modalClose" aria-label="Close project details">✕</button>
+    <span class="m-cat" id="mCat"></span>
+    <h3 id="mTitle"></h3>
+    <p id="mBlurb" style="opacity:.85"></p>
+    <ul id="mPoints"></ul>
+    <div class="m-tags" id="mTags"></div>
+  </div>
+</div>
+
+<!-- TOAST -->
+<div class="toast" id="toast"><i>✳</i><span>Email copied to clipboard</span></div>
+
+<script src="js/main.js" defer></script>
+
+</body>
+</html>
